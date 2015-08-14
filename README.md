@@ -16,7 +16,7 @@ coming soon...
 
 ###Copy NKWatchActivityIndicator folder to watch app extension ###
 
-###Note: because the limition of WatchKit, maybe you need to use similiar UI elements and layouts as we did in demo for some animation effects
+######Note: because the limition of WatchKit, maybe you need to use similiar UI elements and layouts as we did in demo for some animation effects
 
 ##Requirements##
 * watchOS ~> 2.0
