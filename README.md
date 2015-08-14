@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 An activity indicator library for Apple Watch and a sample to push limit of animation in watchOS 2. We are trying to implement beautiful indicators in [this fork of DGActivityIndicatorView](https://github.com/ninjaprox/DGActivityIndicatorView) and support ball scale, ball scale ripple, tow dots, three dots, ball zigzag, ball zigzag deflect animations now and will integrate more.
+**Static screenshots can't show the animation effect, please make sure see the gif below.**
 
 ![gif](https://db.tt/UAWEZ1AF)
 
