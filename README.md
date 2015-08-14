@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-watchOS-ff69b4.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-An activity indicator library for Apple Watch and a sample to push limit of animation in watchOS 2. We are trying to implement beautiful indicators in []this fork of DGActivityIndicatorView](https://github.com/ninjaprox/DGActivityIndicatorView) and support ball scale, ball scale ripple, tow dots, three dots, ball zigzag, ball zigzag deflect animations now and will integrate more.
+An activity indicator library for Apple Watch and a sample to push limit of animation in watchOS 2. We are trying to implement beautiful indicators in [this fork of DGActivityIndicatorView](https://github.com/ninjaprox/DGActivityIndicatorView) and support ball scale, ball scale ripple, tow dots, three dots, ball zigzag, ball zigzag deflect animations now and will integrate more.
 
 ![gif](https://db.tt/UAWEZ1AF)
 
@@ -16,7 +16,7 @@ coming soon...
 
 ###Copy NKWatchActivityIndicator folder to watch app extension ###
 
-###Note: because the limition of WatchKit, you need to use similiar UI elements and layouts as we do in demo to get full animation effects
+###Note: because the limition of WatchKit, maybe you need to use similiar UI elements and layouts as we did in demo for some animation effects
 
 ##Requirements##
 * watchOS ~> 2.0
@@ -53,4 +53,4 @@ Then
 This code is distributed under the terms and conditions of the MIT license.
 
 ##Thanks##
-Awesome chart library [PNChart](https://github.com/kevinzhow/PNChart) by @kevinzhow
+Awesome activity indicator library [DGActivityIndicatorView](https://github.com/ninjaprox/DGActivityIndicatorView)
