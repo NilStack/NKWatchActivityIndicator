@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82C02BA1B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B82C02B91B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.m */; };
+		B82C02BD1B7E340100203447 /* BallZigZagAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82C02BC1B7E340100203447 /* BallZigZagAnimationDemoController.m */; };
+		B841871E1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841871D1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.m */; };
+		B84187211B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B84187201B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.m */; };
+		B84187241B7D841700E3E935 /* TwoDotsAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84187231B7D841700E3E935 /* TwoDotsAnimationDemoController.m */; };
+		B841C3F01B7C5DFB00211D70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C3EF1B7C5DFB00211D70 /* main.m */; };
+		B841C3F31B7C5DFB00211D70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C3F21B7C5DFB00211D70 /* AppDelegate.m */; };
+		B841C3F61B7C5DFB00211D70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C3F51B7C5DFB00211D70 /* ViewController.m */; };
+		B841C3F91B7C5DFB00211D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841C3F71B7C5DFB00211D70 /* Main.storyboard */; };
+		B841C3FB1B7C5DFB00211D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841C3FA1B7C5DFB00211D70 /* Assets.xcassets */; };
+		B841C3FE1B7C5DFB00211D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841C3FC1B7C5DFB00211D70 /* LaunchScreen.storyboard */; };
+		B841C40B1B7C5E2200211D70 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841C4091B7C5E2200211D70 /* Interface.storyboard */; };
+		B841C40D1B7C5E2200211D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841C40C1B7C5E2200211D70 /* Assets.xcassets */; };
+		B841C4141B7C5E2200211D70 /* WatchActivityIndicator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B841C4131B7C5E2200211D70 /* WatchActivityIndicator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B841C41A1B7C5E2200211D70 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C4191B7C5E2200211D70 /* InterfaceController.m */; };
+		B841C41D1B7C5E2200211D70 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C41C1B7C5E2200211D70 /* ExtensionDelegate.m */; };
+		B841C41F1B7C5E2200211D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841C41E1B7C5E2200211D70 /* Assets.xcassets */; };
+		B841C4231B7C5E2200211D70 /* WatchActivityIndicator.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B841C4071B7C5E2100211D70 /* WatchActivityIndicator.app */; };
+		B841C4341B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C4331B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.m */; };
+		B841C4371B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C4361B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.m */; };
+		B841C4401B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B841C43F1B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.m */; };
+		B84BBED41B7CC12400143457 /* BallScaleAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84BBED31B7CC12400143457 /* BallScaleAnimationDemoController.m */; };
+		B84BBED71B7CC3E000143457 /* AnimationTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84BBED61B7CC3E000143457 /* AnimationTableRowController.m */; };
+		B87E76DB1B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E76DA1B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		B87E76DE1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E76DD1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.m */; };
+		B8DB39001B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB38FF1B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.m */; };
+		B8DB39031B7DCCB500300BFE /* ThreeDotsAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB39021B7DCCB500300BFE /* ThreeDotsAnimationDemoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B841C4151B7C5E2200211D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B841C3E31B7C5DFB00211D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B841C4121B7C5E2200211D70;
+			remoteInfo = "WatchActivityIndicator Extension";
+		};
+		B841C4211B7C5E2200211D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B841C3E31B7C5DFB00211D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B841C4061B7C5E2100211D70;
+			remoteInfo = WatchActivityIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B841C4271B7C5E2200211D70 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B841C4141B7C5E2200211D70 /* WatchActivityIndicator Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841C42B1B7C5E2200211D70 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B841C4231B7C5E2200211D70 /* WatchActivityIndicator.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B82C02B81B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		B82C02B91B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		B82C02BB1B7E340100203447 /* BallZigZagAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallZigZagAnimationDemoController.h; sourceTree = "<group>"; };
+		B82C02BC1B7E340100203447 /* BallZigZagAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallZigZagAnimationDemoController.m; sourceTree = "<group>"; };
+		B841871C1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallScaleRippleAnimationDemoController.h; sourceTree = "<group>"; };
+		B841871D1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallScaleRippleAnimationDemoController.m; sourceTree = "<group>"; };
+		B841871F1B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		B84187201B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		B84187221B7D841700E3E935 /* TwoDotsAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDotsAnimationDemoController.h; sourceTree = "<group>"; };
+		B84187231B7D841700E3E935 /* TwoDotsAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDotsAnimationDemoController.m; sourceTree = "<group>"; };
+		B841C3EB1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKWatchActivityIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841C3EF1B7C5DFB00211D70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B841C3F11B7C5DFB00211D70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B841C3F21B7C5DFB00211D70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B841C3F41B7C5DFB00211D70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B841C3F51B7C5DFB00211D70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B841C3F81B7C5DFB00211D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B841C3FA1B7C5DFB00211D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B841C3FD1B7C5DFB00211D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B841C3FF1B7C5DFB00211D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B841C4071B7C5E2100211D70 /* WatchActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841C40A1B7C5E2200211D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B841C40C1B7C5E2200211D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B841C40E1B7C5E2200211D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B841C4131B7C5E2200211D70 /* WatchActivityIndicator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchActivityIndicator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841C4181B7C5E2200211D70 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B841C4191B7C5E2200211D70 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B841C41B1B7C5E2200211D70 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B841C41C1B7C5E2200211D70 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B841C41E1B7C5E2200211D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B841C4201B7C5E2200211D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B841C42F1B7C5F2300211D70 /* NKWActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
+		B841C4321B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		B841C4331B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		B841C4351B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		B841C4361B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		B841C43E1B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		B841C43F1B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		B84BBED21B7CC12400143457 /* BallScaleAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallScaleAnimationDemoController.h; sourceTree = "<group>"; };
+		B84BBED31B7CC12400143457 /* BallScaleAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallScaleAnimationDemoController.m; sourceTree = "<group>"; };
+		B84BBED51B7CC3E000143457 /* AnimationTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableRowController.h; sourceTree = "<group>"; };
+		B84BBED61B7CC3E000143457 /* AnimationTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableRowController.m; sourceTree = "<group>"; };
+		B87E76D91B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		B87E76DA1B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		B87E76DC1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallZigZagDeflectAnimationDemoController.h; sourceTree = "<group>"; };
+		B87E76DD1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallZigZagDeflectAnimationDemoController.m; sourceTree = "<group>"; };
+		B8DB38FE1B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		B8DB38FF1B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKWActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		B8DB39011B7DCCB500300BFE /* ThreeDotsAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDotsAnimationDemoController.h; sourceTree = "<group>"; };
+		B8DB39021B7DCCB500300BFE /* ThreeDotsAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDotsAnimationDemoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B841C3E81B7C5DFB00211D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841C4101B7C5E2200211D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B841C3E21B7C5DFB00211D70 = {
+			isa = PBXGroup;
+			children = (
+				B841C3ED1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo */,
+				B841C4081B7C5E2200211D70 /* WatchActivityIndicator */,
+				B841C4171B7C5E2200211D70 /* WatchActivityIndicator Extension */,
+				B841C3EC1B7C5DFB00211D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B841C3EC1B7C5DFB00211D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B841C3EB1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo.app */,
+				B841C4071B7C5E2100211D70 /* WatchActivityIndicator.app */,
+				B841C4131B7C5E2200211D70 /* WatchActivityIndicator Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B841C3ED1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B841C3F11B7C5DFB00211D70 /* AppDelegate.h */,
+				B841C3F21B7C5DFB00211D70 /* AppDelegate.m */,
+				B841C3F41B7C5DFB00211D70 /* ViewController.h */,
+				B841C3F51B7C5DFB00211D70 /* ViewController.m */,
+				B841C3F71B7C5DFB00211D70 /* Main.storyboard */,
+				B841C3FA1B7C5DFB00211D70 /* Assets.xcassets */,
+				B841C3FC1B7C5DFB00211D70 /* LaunchScreen.storyboard */,
+				B841C3FF1B7C5DFB00211D70 /* Info.plist */,
+				B841C3EE1B7C5DFB00211D70 /* Supporting Files */,
+			);
+			path = NKWatchActivityIndicatorDemo;
+			sourceTree = "<group>";
+		};
+		B841C3EE1B7C5DFB00211D70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B841C3EF1B7C5DFB00211D70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B841C4081B7C5E2200211D70 /* WatchActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				B841C4091B7C5E2200211D70 /* Interface.storyboard */,
+				B841C40C1B7C5E2200211D70 /* Assets.xcassets */,
+				B841C40E1B7C5E2200211D70 /* Info.plist */,
+			);
+			path = WatchActivityIndicator;
+			sourceTree = "<group>";
+		};
+		B841C4171B7C5E2200211D70 /* WatchActivityIndicator Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B841C42D1B7C5EE900211D70 /* NKWatchActivityIndicator */,
+				B841C4181B7C5E2200211D70 /* InterfaceController.h */,
+				B841C4191B7C5E2200211D70 /* InterfaceController.m */,
+				B84BBED51B7CC3E000143457 /* AnimationTableRowController.h */,
+				B84BBED61B7CC3E000143457 /* AnimationTableRowController.m */,
+				B84BBED21B7CC12400143457 /* BallScaleAnimationDemoController.h */,
+				B84BBED31B7CC12400143457 /* BallScaleAnimationDemoController.m */,
+				B841871C1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.h */,
+				B841871D1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.m */,
+				B84187221B7D841700E3E935 /* TwoDotsAnimationDemoController.h */,
+				B84187231B7D841700E3E935 /* TwoDotsAnimationDemoController.m */,
+				B8DB39011B7DCCB500300BFE /* ThreeDotsAnimationDemoController.h */,
+				B8DB39021B7DCCB500300BFE /* ThreeDotsAnimationDemoController.m */,
+				B87E76DC1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.h */,
+				B87E76DD1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.m */,
+				B82C02BB1B7E340100203447 /* BallZigZagAnimationDemoController.h */,
+				B82C02BC1B7E340100203447 /* BallZigZagAnimationDemoController.m */,
+				B841C41B1B7C5E2200211D70 /* ExtensionDelegate.h */,
+				B841C41C1B7C5E2200211D70 /* ExtensionDelegate.m */,
+				B841C41E1B7C5E2200211D70 /* Assets.xcassets */,
+				B841C4201B7C5E2200211D70 /* Info.plist */,
+			);
+			path = "WatchActivityIndicator Extension";
+			sourceTree = "<group>";
+		};
+		B841C42D1B7C5EE900211D70 /* NKWatchActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				B841C42E1B7C5EE900211D70 /* Animations */,
+				B841C42F1B7C5F2300211D70 /* NKWActivityIndicatorAnimationProtocol.h */,
+				B841C4321B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.h */,
+				B841C4331B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.m */,
+			);
+			path = NKWatchActivityIndicator;
+			sourceTree = SOURCE_ROOT;
+		};
+		B841C42E1B7C5EE900211D70 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B841C4351B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.h */,
+				B841C4361B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.m */,
+				B841C43E1B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.h */,
+				B841C43F1B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.m */,
+				B841871F1B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.h */,
+				B84187201B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.m */,
+				B8DB38FE1B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.h */,
+				B8DB38FF1B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.m */,
+				B87E76D91B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.h */,
+				B87E76DA1B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.m */,
+				B82C02B81B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.h */,
+				B82C02B91B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B841C3EA1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B841C4021B7C5DFB00211D70 /* Build configuration list for PBXNativeTarget "NKWatchActivityIndicatorDemo" */;
+			buildPhases = (
+				B841C3E71B7C5DFB00211D70 /* Sources */,
+				B841C3E81B7C5DFB00211D70 /* Frameworks */,
+				B841C3E91B7C5DFB00211D70 /* Resources */,
+				B841C42B1B7C5E2200211D70 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B841C4221B7C5E2200211D70 /* PBXTargetDependency */,
+			);
+			name = NKWatchActivityIndicatorDemo;
+			productName = NKWatchActivityIndicatorDemo;
+			productReference = B841C3EB1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B841C4061B7C5E2100211D70 /* WatchActivityIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B841C4281B7C5E2200211D70 /* Build configuration list for PBXNativeTarget "WatchActivityIndicator" */;
+			buildPhases = (
+				B841C4051B7C5E2100211D70 /* Resources */,
+				B841C4271B7C5E2200211D70 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B841C4161B7C5E2200211D70 /* PBXTargetDependency */,
+			);
+			name = WatchActivityIndicator;
+			productName = WatchActivityIndicator;
+			productReference = B841C4071B7C5E2100211D70 /* WatchActivityIndicator.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B841C4121B7C5E2200211D70 /* WatchActivityIndicator Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B841C4241B7C5E2200211D70 /* Build configuration list for PBXNativeTarget "WatchActivityIndicator Extension" */;
+			buildPhases = (
+				B841C40F1B7C5E2200211D70 /* Sources */,
+				B841C4101B7C5E2200211D70 /* Frameworks */,
+				B841C4111B7C5E2200211D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchActivityIndicator Extension";
+			productName = "WatchActivityIndicator Extension";
+			productReference = B841C4131B7C5E2200211D70 /* WatchActivityIndicator Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B841C3E31B7C5DFB00211D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Peng;
+				TargetAttributes = {
+					B841C3EA1B7C5DFB00211D70 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B841C4061B7C5E2100211D70 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B841C4121B7C5E2200211D70 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B841C3E61B7C5DFB00211D70 /* Build configuration list for PBXProject "NKWatchActivityIndicatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B841C3E21B7C5DFB00211D70;
+			productRefGroup = B841C3EC1B7C5DFB00211D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B841C3EA1B7C5DFB00211D70 /* NKWatchActivityIndicatorDemo */,
+				B841C4061B7C5E2100211D70 /* WatchActivityIndicator */,
+				B841C4121B7C5E2200211D70 /* WatchActivityIndicator Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B841C3E91B7C5DFB00211D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841C3FE1B7C5DFB00211D70 /* LaunchScreen.storyboard in Resources */,
+				B841C3FB1B7C5DFB00211D70 /* Assets.xcassets in Resources */,
+				B841C3F91B7C5DFB00211D70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841C4051B7C5E2100211D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841C40D1B7C5E2200211D70 /* Assets.xcassets in Resources */,
+				B841C40B1B7C5E2200211D70 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841C4111B7C5E2200211D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841C41F1B7C5E2200211D70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B841C3E71B7C5DFB00211D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841C3F61B7C5DFB00211D70 /* ViewController.m in Sources */,
+				B841C3F31B7C5DFB00211D70 /* AppDelegate.m in Sources */,
+				B841C3F01B7C5DFB00211D70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841C40F1B7C5E2200211D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84187241B7D841700E3E935 /* TwoDotsAnimationDemoController.m in Sources */,
+				B87E76DB1B7E16C80054A2CC /* NKWActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+				B84187211B7D7F5A00E3E935 /* NKWActivityIndicatorTwoDotsAnimation.m in Sources */,
+				B841C4371B7C60BA00211D70 /* NKWActivityIndicatorBallScaleAnimation.m in Sources */,
+				B84BBED41B7CC12400143457 /* BallScaleAnimationDemoController.m in Sources */,
+				B841C4401B7C698D00211D70 /* NKWActivityIndicatorBallScaleRippleAnimation.m in Sources */,
+				B841871E1B7D7A3000E3E935 /* BallScaleRippleAnimationDemoController.m in Sources */,
+				B84BBED71B7CC3E000143457 /* AnimationTableRowController.m in Sources */,
+				B87E76DE1B7E1D9A0054A2CC /* BallZigZagDeflectAnimationDemoController.m in Sources */,
+				B8DB39001B7DCB2100300BFE /* NKWActivityIndicatorThreeDotsAnimation.m in Sources */,
+				B8DB39031B7DCCB500300BFE /* ThreeDotsAnimationDemoController.m in Sources */,
+				B82C02BA1B7E31A700203447 /* NKWActivityIndicatorBallZigZagAnimation.m in Sources */,
+				B841C41D1B7C5E2200211D70 /* ExtensionDelegate.m in Sources */,
+				B841C4341B7C5FBE00211D70 /* NKWActivityIndicatorAnimation.m in Sources */,
+				B82C02BD1B7E340100203447 /* BallZigZagAnimationDemoController.m in Sources */,
+				B841C41A1B7C5E2200211D70 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B841C4161B7C5E2200211D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B841C4121B7C5E2200211D70 /* WatchActivityIndicator Extension */;
+			targetProxy = B841C4151B7C5E2200211D70 /* PBXContainerItemProxy */;
+		};
+		B841C4221B7C5E2200211D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B841C4061B7C5E2100211D70 /* WatchActivityIndicator */;
+			targetProxy = B841C4211B7C5E2200211D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B841C3F71B7C5DFB00211D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B841C3F81B7C5DFB00211D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B841C3FC1B7C5DFB00211D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B841C3FD1B7C5DFB00211D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B841C4091B7C5E2200211D70 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B841C40A1B7C5E2200211D70 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B841C4001B7C5DFB00211D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B841C4011B7C5DFB00211D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B841C4031B7C5DFB00211D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKWatchActivityIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchActivityIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B841C4041B7C5DFB00211D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKWatchActivityIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchActivityIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B841C4251B7C5E2200211D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchActivityIndicator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchActivityIndicatorDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B841C4261B7C5E2200211D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchActivityIndicator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchActivityIndicatorDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B841C4291B7C5E2200211D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchActivityIndicator_Extension;
+				INFOPLIST_FILE = WatchActivityIndicator/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchActivityIndicatorDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B841C42A1B7C5E2200211D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchActivityIndicator_Extension;
+				INFOPLIST_FILE = WatchActivityIndicator/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchActivityIndicatorDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B841C3E61B7C5DFB00211D70 /* Build configuration list for PBXProject "NKWatchActivityIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841C4001B7C5DFB00211D70 /* Debug */,
+				B841C4011B7C5DFB00211D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B841C4021B7C5DFB00211D70 /* Build configuration list for PBXNativeTarget "NKWatchActivityIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841C4031B7C5DFB00211D70 /* Debug */,
+				B841C4041B7C5DFB00211D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B841C4241B7C5E2200211D70 /* Build configuration list for PBXNativeTarget "WatchActivityIndicator Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841C4251B7C5E2200211D70 /* Debug */,
+				B841C4261B7C5E2200211D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B841C4281B7C5E2200211D70 /* Build configuration list for PBXNativeTarget "WatchActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841C4291B7C5E2200211D70 /* Debug */,
+				B841C42A1B7C5E2200211D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B841C3E31B7C5DFB00211D70 /* Project object */;
+}

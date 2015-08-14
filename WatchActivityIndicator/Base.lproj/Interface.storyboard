@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8089"/>
+    </dependencies>
+    <scenes>
+        <!--Activity Indicator-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" title="Activity Indicator" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="krf-bS-L27">
+                            <items>
+                                <tableRow identifier="AnimationTableRowController" id="wOh-Fh-fwt" customClass="AnimationTableRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="83D-Ea-EOj">
+                                        <items>
+                                            <label width="1" height="1" alignment="left" text="Label" id="7Zi-UG-cwW"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="animationType" destination="7Zi-UG-cwW" id="p8f-LO-1zu"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="animationTable" destination="krf-bS-L27" id="ICJ-Ib-ebo"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--BallScaleRipple-->
+        <scene sceneID="uu3-La-BmG">
+            <objects>
+                <controller identifier="BallScaleRippleAnimationDemoController" title="BallScaleRipple" hidesWhenLoading="NO" id="uew-Bj-Lqc" customClass="BallScaleRippleAnimationDemoController">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="ZH5-8C-XtR">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" id="drl-rB-tsb"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="indicatorImage" destination="drl-rB-tsb" id="niv-oe-Ohb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="19" y="597"/>
+        </scene>
+        <!--TwoDots-->
+        <scene sceneID="Znk-P4-mpU">
+            <objects>
+                <controller identifier="TwoDotsAnimationDemoController" title="TwoDots" hidesWhenLoading="NO" id="bQx-HY-H37" customClass="TwoDotsAnimationDemoController">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="FXy-Cs-R07">
+                            <items>
+                                <group width="0.5" height="1" alignment="right" id="Kqa-ml-xbs">
+                                    <items>
+                                        <imageView width="1" height="1" alignment="right" verticalAlignment="center" id="JU3-jp-daK"/>
+                                    </items>
+                                </group>
+                                <group width="0.5" height="1" alignment="left" id="bpp-YL-QpL">
+                                    <items>
+                                        <imageView width="1" height="1" alignment="left" verticalAlignment="center" id="sEf-hu-iha"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="leftDotImage" destination="sEf-hu-iha" id="F8y-sJ-ct6"/>
+                        <outlet property="rightDotImage" destination="JU3-jp-daK" id="Xhf-2y-1hT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="180" y="597"/>
+        </scene>
+        <!--ThreeDots-->
+        <scene sceneID="JMW-U9-83d">
+            <objects>
+                <controller identifier="ThreeDotsAnimationDemoController" title="ThreeDots" hidesWhenLoading="NO" id="fXD-of-poI" customClass="ThreeDotsAnimationDemoController">
+                    <items>
+                        <group width="1" height="1" alignment="left" spacing="0.0" id="au5-Ye-DAq">
+                            <items>
+                                <group width="0.20000000000000001" height="0.20000000000000001" alignment="center" verticalAlignment="center" id="kXQ-U3-tOb">
+                                    <items>
+                                        <imageView width="1" height="1" alignment="right" verticalAlignment="center" id="A7S-Cz-e69"/>
+                                    </items>
+                                </group>
+                                <group width="0.20000000000000001" height="0.20000000000000001" alignment="center" verticalAlignment="center" id="h9r-AJ-DYx">
+                                    <items>
+                                        <imageView width="1" height="1" alignment="center" verticalAlignment="center" id="kcH-yR-cQj"/>
+                                    </items>
+                                </group>
+                                <group width="0.20000000000000001" height="0.20000000000000001" alignment="center" verticalAlignment="center" id="Nu0-Qy-zJE">
+                                    <items>
+                                        <imageView width="1" height="1" alignment="left" verticalAlignment="center" id="CNi-KR-sbN"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="centerDotImage" destination="kcH-yR-cQj" id="dlc-JO-of7"/>
+                        <outlet property="leftDotImage" destination="A7S-Cz-e69" id="6CU-iS-K7f"/>
+                        <outlet property="rightDotImage" destination="CNi-KR-sbN" id="vCp-SE-FE5"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="348" y="597"/>
+        </scene>
+        <!--BallZigZagDeflect-->
+        <scene sceneID="zAh-dZ-fpc">
+            <objects>
+                <controller identifier="BallZigZagDeflectAnimationDemoController" title="BallZigZagDeflect" hidesWhenLoading="NO" id="dEI-vB-hB9" customClass="BallZigZagDeflectAnimationDemoController">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="bcl-Jm-JfX">
+                            <items>
+                                <group width="0.5" height="0.29999999999999999" alignment="center" verticalAlignment="center" id="DWl-Q7-IFg">
+                                    <items>
+                                        <imageView width="20" height="20" alignment="center" verticalAlignment="bottom" id="CIT-Yd-01o"/>
+                                    </items>
+                                </group>
+                                <group width="0.5" height="0.29999999999999999" alignment="center" verticalAlignment="center" id="9ch-it-zud">
+                                    <items>
+                                        <imageView width="20" height="20" alignment="center" id="hJi-PY-CrL"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="bottomBallImage" destination="hJi-PY-CrL" id="kZy-ax-HDD"/>
+                        <outlet property="topBallImage" destination="CIT-Yd-01o" id="B4P-ar-e2M"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="521" y="597"/>
+        </scene>
+        <!--BallZigZag-->
+        <scene sceneID="D1T-03-ZoK">
+            <objects>
+                <controller identifier="BallZigZagAnimationDemoController" title="BallZigZag" hidesWhenLoading="NO" id="ei5-mL-fsY" customClass="BallZigZagAnimationDemoController">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="1c7-rj-Lyz">
+                            <items>
+                                <group width="0.5" height="0.29999999999999999" alignment="center" verticalAlignment="center" id="vns-nt-HZA">
+                                    <items>
+                                        <imageView width="20" height="20" alignment="center" verticalAlignment="bottom" id="cmo-mX-DwH"/>
+                                    </items>
+                                </group>
+                                <group width="0.5" height="0.29999999999999999" alignment="center" verticalAlignment="center" id="CYI-k7-Fhg">
+                                    <items>
+                                        <imageView width="20" height="20" alignment="center" id="ssP-OX-JW3"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="bottomBallImage" destination="ssP-OX-JW3" id="bGn-D2-U2c"/>
+                        <outlet property="topBallImage" destination="cmo-mX-DwH" id="prI-di-6EK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="693" y="597"/>
+        </scene>
+        <!--BallScale-->
+        <scene sceneID="a8S-VU-FbL">
+            <objects>
+                <controller identifier="BallScaleAnimationDemoController" title="BallScale" hidesWhenLoading="NO" id="pgQ-OQ-mQX" customClass="BallScaleAnimationDemoController">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="s5S-VM-FzB">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" id="VQN-VE-FLs"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="indicatorImage" destination="VQN-VE-FLs" id="kI4-vK-SgV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-142" y="597"/>
+        </scene>
+    </scenes>
+</document>
