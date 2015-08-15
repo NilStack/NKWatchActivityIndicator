@@ -13,7 +13,19 @@ An activity indicator library for Apple Watch and a sample to push limit of anim
 
 ###Cocoapods###
 
-coming soon...
+In your watchOS target
+
+    pod 'NKWatchActivityInidcator'
+    
+Then
+
+    pod install
+    
+And
+
+    #import "NKWActivityIndicatorAnimation.h"
+
+[Using Cocoapods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
 
 ###Copy NKWatchActivityIndicator folder to watch app extension ###
 
