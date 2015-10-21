@@ -15,7 +15,7 @@ An activity indicator library for Apple Watch and a sample to **push the limits 
 
 In your watchOS target
 
-    pod 'NKWatchActivityInidcator'
+    pod 'NKWatchActivityIndicator'
     
 Then
 
