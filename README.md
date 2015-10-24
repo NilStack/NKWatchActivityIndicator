@@ -27,6 +27,8 @@ And
 
 [Using Cocoapods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
 
+[Integrating CocoaPods into native watchOS targets](https://github.com/neonichu/native-watchOS-example) by Boris Bügling
+
 ###Copy NKWatchActivityIndicator folder to watch app extension ###
 
 ######Note: because the limition of WatchKit, maybe you need to use similiar UI elements and layouts as we did in demo for some animation effects
