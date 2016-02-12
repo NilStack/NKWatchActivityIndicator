@@ -11,7 +11,7 @@ An activity indicator library for Apple Watch and a sample to **push the limits 
 
 ##Usage##
 
-###Cocoapods###
+###CocoaPods###
 
 In your watchOS target
 
@@ -25,7 +25,7 @@ And
 
     #import "NKWActivityIndicatorAnimation.h"
 
-[Using Cocoapods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
+[Using CocoaPods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
 
 [Integrating CocoaPods into native watchOS targets](https://github.com/neonichu/native-watchOS-example) by Boris Bügling
 
